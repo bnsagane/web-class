@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(117, 67, 6, 0.5); 
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: seashell;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(238, 178, 156);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(155, 87, 5);
+    text-align:left;
+    
+}
+
+h4 {
+    color:rgb(184, 150, 216)
+}
+
+a{
+    color:darkseagreen
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:visited:hover {
+    color: darkolivegreen;
+}
+
+hr {
+    border-top: 1px dotted; color: rgb(176, 163, 159);
+    border-bottom: 1px dotted; color:rgb(176, 163, 159)
+}
+
+ul {
+    list-style-type:circle ; color: rgb(172, 191, 96);
+}
