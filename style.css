@@ -57,11 +57,6 @@ img:hover{
 }
 
 img{
-    -webkit-filter: drop-shadow(5px 5px 5px);
-    filter: drop-shadow(5px 5px 5px);
-}
-
-img{
-    align: center;
-
+    -webkit-filter: drop-shadow(3px 3px 3px);
+    filter: drop-shadow(3px 3px 3px);
 }
