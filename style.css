@@ -49,3 +49,19 @@ hr {
 ul {
     list-style-type:circle ; color: rgb(172, 191, 96);
 }
+
+img:hover{
+    position: relative; 
+    top: -5px;
+    right: -5px;
+}
+
+img{
+    -webkit-filter: drop-shadow(5px 5px 5px);
+    filter: drop-shadow(5px 5px 5px);
+}
+
+img{
+    align: center;
+
+}
