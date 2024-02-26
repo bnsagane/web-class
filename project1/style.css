@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*inculded in height and width sizing */
+}
+
+body{
+   font-family: 'Inclusive Sans', sans-serif;;
+    } 
+
+
+.name{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(140, 0, 0);
+    display: block;
+    background-image: url(images/A_black_image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 100px;
+}
+
+.manga-pages{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .flex{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .column{
+        width: 100%;
+        margin: 20px 30px 20px 30px;
+        text-align: center;
+    }
+
+ .flex2{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/A_black_image.jpg);
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    padding: 30px;
+    }
+
+.flex2 h2{
+    text-align: center;
+}
+
+    .column2{
+        width: 22%;
+        margin: 15px 40px;
+    }
+
+    
+#plot{
+    background-image: url(images/splatter.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.plot-box{
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(253, 205, 205);
+    margin: 100px auto;
+}
+
+.plot-box h1{
+    text-align: center;
+}
+
+.plot-box a{
+    color:rgb(0, 0, 0)
+}
+
+.plot-box a:hover {
+    color: rgb(96, 27, 27);
+}
+
+.plot-box a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.plot-box a:visited:hover {
+    color:  rgb(96, 27, 27);
+}
+
+.volumes{
+    text-align: center;
+    background-color: rgba(125, 21, 21, 0.768);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    margin: 6px auto;
+    padding: 10px;
+}
+
+
+.closing{
+    text-align: center;
+}
+
+.plotp{
+    margin: 0;
+    padding: 0;
+}
+.imgp1{
+    position: absolute;
+    left: 1080px;
+    bottom: 500px
+}
+
+.imgp2{
+    position: absolute;
+    left: 1200px;
+    bottom: 90px
+}
+
+.imgp3{
+    position: absolute;
+    left: 20px;
+    bottom: 70px
+}
+
+.flex3{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#images{
+    width: 100%;
+    margin: 20px 40px 20px 40px;
+}
+
+.flex2 p{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(248, 5, 5, 0.636);
+}
+
+.flex2 img{
+    position: relative;
+    top: 10px;
+    right: 80px;
+    box-shadow: 0 0 20px rgba(248, 5, 5, 0.636);
+}
+
+
+.flex2 h5{
+    position: relative;
+    top: 25px;
+    right: 75px;
+    font-size: 20px;
+}
+
+.buy h2{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(125, 21, 21, 0.768);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.wimg{
+    margin: 20px 50px 20px 50px;
+}
+
+.flex3 img:hover{
+ position: relative;
+ bottom: 5px;
+ box-shadow: 0 0 10px rgb(116, 115, 114);
+}
+
+a{
+    color:rgb(255, 255, 255)
+}
+
+a:hover {
+    color: rgb(96, 27, 27);
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:visited:hover {
+    color:  rgb(96, 27, 27);
+}
+
