@@ -1,62 +1,106 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-    color: rgb(117, 67, 6, 0.5); 
-    font-size: 60px;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: seashell;
+  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*inculded in height and width sizing */
 }
 
-h2 {
-    font-weight: bold;
-    font-style: italic;
-    background-color: rgb(238, 178, 156);
+body{
+    color: white;
+    background-color: black;
+}
+ /* Header */
+
+
+  header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+   /* background-color: rgba(0, 0, 0, 0.464); */
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(155, 87, 5);
-    text-align:left;
+h1{
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+   /* text-transform: uppercase; */
+    margin: 0 10px;
+}
+
+nav a{
+    color: rgb(248, 99, 124);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(255, 166, 183);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    padding: 20px;
+}
+
+body{
+    text-align: center;
+}
+
+/* section 1*/
+
+.s1 p {
+   color: black;
+    background-color:rgb(248, 184, 195);
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+/* section 2*/
+.s2{
+    background-color: rgb(248, 146, 163);
+    width: 80%;
+    margin: auto;
+}
+
+.s2 img{
+    padding: 0 30px 10px 30px;
     
 }
+.s2 h2{
+    text-shadow: 2px 2px rgb(0, 0, 0);
 
-h4 {
-    color:rgb(184, 150, 216)
 }
 
-a{
-    color:darkseagreen
+/* section 3*/
+.s3{
+    margin: auto;
+    width: 70%;
+}
+.s3 img{
+    padding: 10px 30px 10px 30px
 }
 
-a:hover {
-    color: darkolivegreen;
-}
-
-a:visited {
-    color: darkgray;
-}
-
-a:visited:hover {
-    color: darkolivegreen;
-}
-
-hr {
-    border-top: 1px dotted; color: rgb(176, 163, 159);
-    border-bottom: 1px dotted; color:rgb(176, 163, 159)
-}
-
-ul {
-    list-style-type:circle ; color: rgb(172, 191, 96);
-}
-
-img:hover{
-    position: relative; 
-    top: -5px;
-    right: -5px;
-}
-
-img{
-    -webkit-filter: drop-shadow(3px 3px 3px);
-    filter: drop-shadow(3px 3px 3px);
+.s3 p{
+    background-color:rgb(195, 195, 195);
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
 }
