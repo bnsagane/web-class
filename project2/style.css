@@ -1,0 +1,165 @@
+  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*inculded in height and width sizing */
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+ /* Header */
+
+
+  header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+   /* background-color: rgba(0, 0, 0, 0.464); */
+}
+
+h1{
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+   /* text-transform: uppercase; */
+    margin: 0 10px;
+}
+
+nav a{
+    color: rgb(248, 99, 124);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(255, 166, 183);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    padding: 20px;
+}
+
+body{
+    text-align: center;
+}
+
+/* Title */
+.title {
+display: inline-block;
+}
+.title img{
+    position: relative;
+}
+
+/* section 1*/
+
+.s1 p {
+   color: black;
+    background-color:rgb(199, 218, 218);
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: 3px 3px rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+/* section 2*/
+.s2{
+    background-color: rgb(128, 156, 159);
+    width: 80%;
+    margin: auto;
+}
+
+.s2 img{
+    padding: 0 30px 10px 30px;
+    
+}
+.s2 h2{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+/* section 3*/
+.s3{
+    margin: auto;
+    width: 70%;
+}
+.s3 img{
+    padding: 10px 30px 10px 30px
+}
+
+.s3 p{
+    background-color:rgb(195, 195, 195);
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 0 20 white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu p{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(195, 195, 195);
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 0 20 white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* help section */
+
+.help p{
+    font-size: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+
+    .parent p{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* my opinions */
+.opinion p{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(195, 195, 195);
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 0 20 white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+hr {
+    border: 2px dashed;
+}
