@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*inculded in height and width sizing */
+}
+
+body{
+    background-color: rgb(216, 255, 242);
+}
+
+/*Top/intro*/
+
+.intro h3{
+    font-size: 90px;
+    padding: 60px;
+    background-color: pink;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+
+.intro h1{
+margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 1061px){
+    .intro h3{
+        background-color: white;
+        border: 3px rgb(117, 188, 255);
+    }
+}
+
+@media screen and (max-width: 822px){
+    .intro h3{
+        background-color: rgb(92, 9, 9);
+        color: white;
+        border: 3px rgb(255, 67, 192);
+    }
+}
+
+@media screen and (max-width: 596px){
+    .intro h3{
+        background-color: rgb(207, 164, 195);
+        border: 3px rgb(203, 255, 232);
+        font-size: 30px;
+        width: 450px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .intro h3{
+        background-color: rgb(198, 207, 164);
+        border: 3px rgb(0, 0, 0);
+        font-size: 25px;
+        width: 370px;
+        text-align: center;
+    }
+}
+
+/*next*/
+
+.next{
+    text-align: center;
+}
+.next h1{
+    padding-top: 100px;
+    padding-bottom: 260px;
+}
+
+.next h2{
+    padding: 20px;
+    width: 500px;
+    background-color: plum;
+    margin: auto;
+}
+
+@media screen and (max-width: 515px){
+    .next h2{
+        width: 340px;
+        font-size: 20px;
+    }
+}
+
+/*scroll*/ 
+#breathing-effect h2{
+    font-size: 30px;
+}
+#breathing-effect {
+    width: 180px;
+    padding: 12px;
+    margin: 50px auto;
+    -webkit-animation: breathing 2s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    font-family:'Lantinghei SC';
+    font-size: 16px;
+    color: #c2bfbf;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;    
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+/*Why I like websites */
+
+.closing{
+    text-align: center;
+    margin: auto 20px;
+
+}
