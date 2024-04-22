@@ -1,0 +1,516 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(193, 222, 255);
+}
+
+#header{
+  text-align: center;
+}
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.556);
+  border-radius: 20px;
+  color:rgb(0, 0, 0);
+  font-family: "Roboto Flex", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+/* cookie rotation */
+#header img {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
+
+#header h1{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+  }
+
+#header h3{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+ 
+
+ 
+
+/* PAGE 2  */
+#page2 #ingredients h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-indent: 20px;
+  }
+
+  #page2 .parent p{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #page2 .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    text-align: center;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 3; }
+    .div6 { grid-area: 2 / 3 / 3 / 4; }
+    .div7 { grid-area: 3 / 1 / 4 / 2; }
+    .div8 { grid-area: 3 / 2 / 4 / 3; }
+    .div9 { grid-area: 3 / 3 / 4 / 4; 
+    }
+
+    #page2 .btn{
+      display: block;
+      background-color: rgba(255, 255, 255, 0.556);
+      border-radius: 20px;
+      font-family: "Roboto Flex", sans-serif;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+    }
+
+    a{
+      color:rgb(0, 0, 0)
+    }
+    
+    a:hover {
+      color: rgb(211, 137, 137);
+    }
+    
+    a:visited {
+      color: rgb(102, 102, 102);
+    }
+    
+    a:visited:hover {
+      color: rgb(211, 137, 137);
+    }
+
+
+
+
+
+
+    /* PAGE 3  */
+    #recipe h1{
+      font-family: "Pacifico", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 60px;
+      text-align: center;
+  
+    }
+  
+  .step1 h1{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+    background-color: white; width: 530px;
+    margin: auto; 
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  #page3 h4{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: auto; 
+    padding-bottom: 10px;
+  }
+
+  .step2{
+    font-family: "Nanum Pen Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      text-align: center;
+    margin: auto;
+    width: 700px;
+    padding: 20px;
+  }
+  
+  
+  .steps{
+    font-family: "Nanum Pen Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      text-align: center;
+      padding: 15px;
+      background-image: url(images/girdpaper.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  
+  }
+  
+  .step3{
+    margin: auto;
+    width: 700px;
+   padding: 20px;
+  }
+  
+  .step4{
+    margin: auto;
+    width: 700px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+  }
+  
+  .step5{
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+  }
+  
+  .step6{
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+  }
+  
+  .step7{
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+  }
+  
+  .step8{
+   
+    border-radius: 10px;
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+  }
+  
+  
+  a{
+    color:rgb(0, 0, 0)
+  }
+  
+  a:hover {
+    color: rgb(211, 137, 137);
+  }
+  
+  a:visited {
+    color: rgb(102, 102, 102);
+  }
+  
+  a:visited:hover {
+    color: rgb(211, 137, 137);
+  }
+  
+
+
+  .mixer{
+    display: none;
+  }
+
+  .mixerh{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6;
+    }
+  }
+  
+  
+  .mixerh:hover + .mixer{
+  display:block;
+  position: absolute;
+  right: 600px;
+  padding-top: 95px;
+  }
+  
+  
+  .bowl{
+    display: none;
+  }
+  
+  .bowlh{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6;
+    }
+  }
+  
+  
+ #page3 .bowlh:hover + .bowl{
+  display: block;
+  position: absolute;
+  right: 600px;
+  padding-bottom: 10px;
+  }
+  
+  
+  .dough{
+    display: none;
+  }
+  
+  .doughh{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6;
+    }
+  }
+  
+  
+  .doughh:hover + .dough{
+  display: block;
+  position: absolute;
+  right: 600px;
+  }
+  
+  .chips{
+    display: none;
+  }
+  
+  .chipsh{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6;
+    }
+  }
+  
+  
+  .chipsh:hover + .chips{
+  display: block;
+  position: absolute;
+  right: 600px;
+  }
+  
+  
+  .scoop{
+    display: none;
+  }
+  
+  .scooph{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff4da6;
+    }
+  }
+  
+  
+  .scooph:hover + .scoop{
+  display: block;
+  position: absolute;
+  padding-top: 80px;
+  right: 600px;
+  }
+  
+  .bake{
+    display: none;
+  }
+  
+  .bakeh{
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 5px #ff0080;
+    }
+  }
+  
+  
+  .bakeh:hover + .bake{
+  display: block;
+  position: absolute;
+  right: 600px;
+  padding-top: 80px;
+  }
+
+ #page3 .btn{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.556);
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    font-family: "Roboto Flex", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  
+  #page3 a{
+    color:rgb(0, 0, 0)
+  }
+  
+  #page3 a:hover {
+    color: rgb(211, 137, 137);
+  }
+  
+  #page3 a:visited {
+    color: rgb(102, 102, 102);
+  }
+  
+  #page3 a:visited:hover {
+    color: rgb(211, 137, 137);
+  }
+
+  
+/* PAGE 4 */
+ #page4 #source{
+  text-indent: 20px;
+  font-family: "VT323", monospace;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+    }
+  
+  #page4 .step9{
+      font-size: 35px;
+      font-family: "Nanum Pen Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      }
+
+    #page4 .p2{
+      font-size: 40px;
+    }
+      #page4 .btn{
+        display: block;
+        background-color: rgba(255, 255, 255, 0.556);
+        border-radius: 20px;
+        color:rgb(255, 255, 255);
+        font-family: "Roboto Flex", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+      }
+      
+      #page4 a{
+        color:rgb(0, 0, 0)
+      }
+      
+      #page4 a:hover {
+        color: rgb(211, 137, 137);
+      }
+      
+      #page4 a:visited {
+        color: rgb(102, 102, 102);
+      }
+      
+      #page4 a:visited:hover {
+        color: rgb(211, 137, 137);
+      }
+    
