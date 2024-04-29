@@ -1,0 +1,35 @@
+ /*Page 4*/
+#page4{
+    background-color: rgb(215, 215, 214);
+}
+
+ #page4 h1{
+    text-align: center;
+    color: pink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#page4 .title{
+    background-image:url(images/boom.png) ;
+    height: 38vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 .p1 p{
+margin: auto 40px auto 40px;
+padding: 15px;
+box-shadow: 0 0 10px black;
+border-radius: 5px;
+text-align: center;
+background-color: white;
+}
+
+#page4 footer{
+text-align: center;
+}
