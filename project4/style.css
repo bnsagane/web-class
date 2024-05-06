@@ -1,0 +1,538 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+
+   
+   /*  background-image: url(images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ; */
+}
+
+#page1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #161616;
+}
+/*title */
+#page1 .title h1{
+font-size: 39px;
+color: rgb(165, 97, 165);
+}
+
+#page1 .title h3{
+   line-height: 0.1;
+   color: white;
+    }
+
+#page1 .title h4{
+    padding-bottom: 30px;
+    color: gray;
+    }
+
+#page1 .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    }
+    
+    #page1  .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+      /*  background-image: url(images/music.JPEG);
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat; */
+    }
+
+
+    #page1    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+       /*    background-image: url(images/travel.JPEG);
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat; */
+    }
+
+
+    #page1   .div3 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        /*   background-image: url(images/art.JPEG);
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat; */
+    }
+
+    #page1 .div3 p{
+        color:white;
+        background-color: black;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #page1  .div4 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        /*   background-image: url(images/food.JPEG);
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat;
+        color: white; */
+    }
+
+
+    #page1  .div5 { 
+        grid-area: 2 / 2 / 3 / 3; 
+       /*   background-image: url(images/concert.JPEG);
+       background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat; 
+        color: white; */
+    }
+
+
+    #page1 .div6 { 
+        grid-area: 2 / 3 / 3 / 4; 
+       /*    background-image: url(images/collectibles.JPEG);
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat; */
+    }
+
+    /*nav bar */
+    nav {
+        position: fixed;
+        text-align: center;
+        background-color: #ebbcd6;
+        top: 0;
+        z-index: 2;
+    }
+    
+    li{
+        display: inline;
+        position: relative;
+        margin: 0;
+    }
+
+    li a:hover {
+        background-color: #f9ffe7;
+      } 
+
+  li a {
+        display: inline;
+        padding: 0 18px;
+        text-decoration: none;
+      }
+
+      
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 7px;
+        overflow: hidden;
+        background-color: #ebbcd6;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .active {
+        background-color: #eef0b2;
+      }
+
+
+
+    /* Music page */
+
+    #music-page{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(195, 220, 233);
+    }
+   
+    #music-page .title h1{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+   #music-page {
+   .parent{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 30px;
+        text-align: center;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2;
+            background-image: url(); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .div2 { grid-area: 1 / 2 / 2 / 3; 
+        }
+        .div3 { grid-area: 1 / 3 / 2 / 4; 
+        }
+        .div4 { grid-area: 1 / 4 / 2 / 5; 
+    
+        }
+        .div5 { grid-area: 2 / 1 / 3 / 2; 
+        }
+
+        .div6 { grid-area: 2 / 2 / 3 / 3; 
+        }
+
+        .div7 { grid-area: 2 / 3 / 3 / 4; 
+        }
+
+        .div8 { grid-area: 2 / 4 / 3 / 5; 
+        }
+   }
+
+   #music-page .div1-t, .div2-t, .div3-t, .div4-t, .div5-t, .div6-t, .div7-t, .div8-t{
+    text-decoration: underline grey;
+    padding: 5px;
+    line-height: 25px;
+   }
+
+   #music-page .parent h3{
+    text-transform: uppercase;
+   }
+
+    #music-page .travel{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+
+    #music-page .back{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+
+    /* Travel */
+
+    #travel-page{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(217, 225, 209);
+    }
+    #travel-page .title{ 
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+    
+#travel-page {
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color */
+  body {
+
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 0.5;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 63px;
+    background-color: rgb(255, 235, 148);
+    border: 4px solid #000000;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 25px;
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    border-radius: 6px;
+    margin-right: 65px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than ... wide */
+  @media screen and (max-width: 3000px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 25px;
+    }
+
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
+    #travel-page .back{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+
+
+    /* Art */
+
+   #art-page .title h1{
+    padding-top: 30px;
+text-align: center;
+   }
+
+
+    #art-page {
+    background-image: url(images/paper.jpg);
+   
+    
+    }
+
+#art-page .images{
+        text-align: center;
+    }
+
+
+#art-page img{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/*food */
+#food-page h1{
+    padding-top: 20px;
+    color: white;
+}
+
+#food-page .food-img{
+    width: 100%;
+    text-align: center;
+}
+
+#food-page .title{
+text-align: center;
+}
+
+
+/* concerts */
+
+
+#concert-page .title h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#concert-page h4{
+font-size: 22px;    
+}
+
+#concert-page .ev2, .ev4, .ev6, .ev8, .ev10, .ev12, .ev14{
+    background-color: rgb(166, 166, 166);
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px 20px 20px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#concert-page .ev3, .ev5, .ev7, .ev9, .ev11, .ev13{
+    background-color: rgb(210, 199, 214);
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px 20px 20px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(88, 0, 106);
+    position: relative;
+}
+
+    /* Collectibles */
+#coll-page{
+background-color:#ebebeb;
+}
+
+#coll-page .section-wrapper {
+  background-color:#ebebeb;
+  padding:30px;
+  margin-top:10px;
+}
+
+#coll-page h3 {
+  font-size: 34px;
+  color: #525252;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+#coll-page .carousel-wrapper {
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  width: 90%;    
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#coll-page .carousel-wrapper * {
+  box-sizing: border-box;
+}
+
+#coll-page .carousel {
+    border: solid 7px rgb(197, 189, 193);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 999;
+}
+
+#coll-page .carousel {
+  transform-style: preserve-3d;
+}
+
+#coll-page .carousel__card {
+  opacity: 0.4;
+}
+
+#coll-page .carousel__card.active {
+  opacity: 1;
+}
+
+#coll-page .carousel__card {
+  background-color: #fff;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-gap: 10px;
+  align-items: center;
+  font-size: 30px;
+}
+
+#coll-page .carousel__card {
+  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+
+#coll-page .carousel__button--prev, .carousel__button--next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(0 0 0 / 24%);
+    transform: translateY(-70%);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+#coll-page .carousel__button--prev {
+  left: 0;
+}
+
+#coll-page .carousel__button--next {
+  right: 0;
+}
+
+#coll-page .carousel__button--prev::after,
+#coll-page .carousel__button--next::after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 54%;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+/* arrows  */
+#coll-page .carousel__button--next::after {
+  left: 47%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#coll-page li.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 5px;
+}
+#coll-page ul#dotList {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#coll-page li.dot.active {
+  background-color: #525252;
+}
